@@ -90,9 +90,7 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -100,14 +98,19 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+.nav-pills .nav-link.active-tag,  .nav-pills .show > .nav-link {
+	color: black;
+	background-color: gold;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000000
 }
+
+.active-tag{
+	background-color: gold;
+}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
